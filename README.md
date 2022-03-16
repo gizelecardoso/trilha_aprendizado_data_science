@@ -37,8 +37,8 @@ No campo de Aprendizado Supervisionado temos:
 
 No campo de Aprendizado Não Supervisionado temos:
 1. Análise de Cluster.
-2. Análise 
-3. Análise de Correspondência Simples (ANACOR) e Múltipla (ACM)
+2. Análise Fatorial por Componentes Principais (PCA).
+3. Análise de Correspondência Simples (ANACOR) e Múltipla (ACM).
 
 Avançando mais temos:
 1. Deep Learning
