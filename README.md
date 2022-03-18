@@ -11,7 +11,7 @@ Durante esse tempo que estou migrando para área, seguindo muitas comunidades, m
 ## Tabela de conteúdos:
 =================
 <!--ts-->
-   * [Analytics](#Sobre) 🚧 Em construção...  🚧
+   * [Analytics](https://github.com/gizelecardoso/tcc_mba/blob/main/analytics.ipynb)
         * Remoção dos Valores Ausentes (NAN)
         * Separação dos Variáveis em Quantitativas e Qualitativas. 
         * Quantitativas - Tratamento de Outliers
