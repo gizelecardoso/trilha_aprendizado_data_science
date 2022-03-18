@@ -21,7 +21,7 @@ Durante esse tempo que estou migrando para área, seguindo muitas comunidades, m
         * Qualitativas - Correlação com Qui-Quadrado
         * Qualitativas - Dummies
    * Aprendizado Supervisionado
-        * [Regressão Linear Simples e Múltipla](#como-usar) 🚧 Em construção...  🚧
+        * [Regressão Linear Simples e Múltipla](https://github.com/gizelecardoso/regressao_linear) 🚧 Em construção...  🚧
         * [Regressão Polinomial](#como-usar)  🚧 Em construção...  🚧
         * [Regressão Logística (Classificação)](#como-usar)  🚧 Em construção...  🚧
         * [Árvore de Decisão (Regressão e Classificação)](#como-usar)  🚧 Em construção...  🚧
