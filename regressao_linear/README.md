@@ -12,14 +12,14 @@ Importante na Regressão Linear, é que a variável dependente, precisa ser **QU
 Equação Regressão Linear
 
 $$
-   y = \alpha + \beta.x1 + \epsilon
+y = \alpha + \beta.x1 + \epsilon
 $$
 
 Essa equação é para Regressão Linear Simples, onde tentamos prever **y** em razão de uma variável **x**
 
 
 $$
-   y = \alpha + \beta1.x1 + \beta2.x2 + ... + \beta k.x k + \epsilon
+y = \alpha + \beta1.x1 + \beta2.x2 + ... + \beta k.x k + \epsilon
 $$
 
 Essa equação é para Regressão Linear Múltipla, onde tentamos prever **y** em razão de **k** variáveis **x**.
@@ -37,7 +37,7 @@ Dentro da equação temos algumas informações importantes:
 Com essa definição do erro, temos
 
 $$
-    erro = Y - Ŷ
+erro = Y - Ŷ
 $$
 
 Ou seja, o erro é igual a diferença dos valores reais menos os valores previstos da variável dependente.
