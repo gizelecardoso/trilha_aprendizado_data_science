@@ -23,7 +23,7 @@ Durante esse tempo que estou migrando para área, seguindo muitas comunidades, m
    * Aprendizado Supervisionado
         * [Regressão Linear Simples e Múltipla](https://github.com/gizelecardoso/trilha_aprendizado_data_science/blob/main/regressao_linear/README.md) 🚧 Em construção...  🚧
         * [Regressão Polinomial](#como-usar)  🚧 Em construção...  🚧
-        * [Regressão Logística (Classificação)](#como-usar)  🚧 Em construção...  🚧
+        * [Regressão Logística (Classificação)](https://github.com/gizelecardoso/trilha_aprendizado_data_science/blob/main/regressao_logistica/README.md)  🚧 Em construção...  🚧
         * [Árvore de Decisão (Regressão e Classificação)](#como-usar)  🚧 Em construção...  🚧
         * [Ensembles](#como-usar)  🚧 Em construção...  🚧
         * [SVM - Support Vector Machine](#como-usar)  🚧 Em construção...  🚧
