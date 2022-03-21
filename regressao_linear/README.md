@@ -11,18 +11,17 @@ Importante na Regressão Linear, é que a variável dependente, precisa ser **QU
 
 Equação Regressão Linear
 
-$y = \alpha + \beta.x1 + \epsilon$
+![Equação Regressao Simples](https://www.alura.com.br/artigos/assets/desvendando-a-regressao-linear/imagem4.png)
 
 Essa equação é para Regressão Linear Simples, onde tentamos prever **y** em razão de uma variável **x**
 
-
-$y = \alpha + \beta1.x1 + \beta2.x2 + ... + \beta k.x k + \epsilon$
+![Equação Regressao Múltipla](https://ichi.pro/assets/images/max/724/0*pJsp76_deJvdDean)
 
 Essa equação é para Regressão Linear Múltipla, onde tentamos prever **y** em razão de **k** variáveis **x**.
 
 Dentro da equação temos algumas informações importantes:
 
-* **Alfa** -> é chamado de **intercepto**, é o ponto que a reta cruza o eixo y, se não tiver nenhuma váriavel explicativa o valor de **y** é o intercepto (talvez eu diria que é o valor padrão).
+* **Alfa ou Beta 0** -> é chamado de **intercepto**, é o ponto que a reta cruza o eixo y, se não tiver nenhuma váriavel explicativa o valor de **y** é o intercepto (talvez eu diria que é o valor padrão).
 
 * **Beta** -> é chamado de **coeficiente de inclinação da reta**.
 
@@ -30,9 +29,9 @@ Dentro da equação temos algumas informações importantes:
 
 * **u** -> é o termo de erro da equação. A ideia dele é que nossa reta da equação, não conseguirá captar todos os pontos das observações, essa diferença do ponto e a reta é agregada nessa variável.
 
-Com essa definição do erro, temos
+Com essa definição do erro, temos:
 
-$erro = Y - Ŷ$
+erro = Y - Ŷ
 
 Ou seja, o erro é igual a diferença dos valores reais menos os valores previstos da variável dependente.
 
