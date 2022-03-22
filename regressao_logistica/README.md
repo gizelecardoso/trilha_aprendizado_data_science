@@ -12,7 +12,7 @@ Na Regressão Logística a variável dependente que se apresenta na forma qualit
 
 Regressão Logística, entra nos Modelo chamados de **Classificação**, pois iremos calcular a probabilidade de uma observação cair em uma classe(categoria, rótulo), etc.
 
-Equação Regressão Logistica
+Equação Regressão Logistica Binária
 
 ![Equação Logistica](https://aprenderdatascience.com/wp-content/uploads/2020/08/Untitled-design-4-1-520x245.png)
 
@@ -27,6 +27,11 @@ Dentro da equação temos algumas informações importantes:
 * **p(y=1)** ->  p é a probabilidade no caso de y ser 1, ou seja a probabilidade de ocorrência do evento.
 
 * essa fórmula parte da tranformação do ln(chance) onde a chance é igual a p / 1-p (evento sobre não evento).
+
+Para a Regressão Logística Multinomial:
+    - Teremos (M-1) logitos, sendo M o número de categorias da variável dependente, então os calculos de probabilidade levarão em conta essa quantidade de logitos.
+
+<img src = 'logitos_multinomial.jpeg'>
 
 ## Estimação do Parâmetros:
 
@@ -46,8 +51,9 @@ Após rodarmos o modelo alguns outputs são usados para validar o quão bom o mo
     Para Multinomial - Distribuição Binomial
 
 ### Testes Estatísticos
-1. X²
-    -2 *(llo - llmod)
+1. Teste X²
+    - Verificação de significância do Modelo, tendo como H1 a hipótese de que existe um beta estatisticamente diferente de zero a determinado nível de significância.
+    - 2 *(llo - llmod)
     - llo = log lik do modelo nulo (somente com intercepto)
     - llmod = log lik do modelo
 
@@ -55,15 +61,28 @@ Após rodarmos o modelo alguns outputs são usados para validar o quão bom o mo
 
     - p-valor < 0.05
 
+2. Teste Z de Wald
+    - Análogo ao teste T, validar para cada beta, se é estatisticamente diferente de zero. (z é referente a distribuição ser a normal padrão, com método z-score)
 
-2. AIC (Akaike Info Criterion)
+    - Para cada parâmetro calcula: (alfa / s.e(alfa))
+    - onde s.e = erro padrão
+    (comparar valores críticos a dado nível de significância)
+
+3. AIC (Akaike Info Criterion)
     - -2* llmod + 2K (onde K, numero de parâmetros incluindo alfa)
     - na comparação de modelos, escolhe com menos AIC
 
-3. BIC
+4. BIC
     - -2* llmod + K.ln(N)
     - na comparação de modelos, escolhe com menos BIC
 
+
+5. Cutoff (não é utilizado na multinomial - que utiliza a maior probabilidade calculada)
+    - Ponto de corte, é definido para que sejam classificadas as observações em razão das propabilidades calculadas.
+
+    p > cutoff = evento
+
+    p < cutoff = não evento
 
 4. Matriz de Confusão
 
