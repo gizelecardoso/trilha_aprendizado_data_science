@@ -77,7 +77,7 @@ Durante esse tempo que estou migrando para área, seguindo muitas comunidades, m
    * Aprendizado Não Supervisionado
         * [Análise de Cluster](#como-usar) 🚧 Em construção...  🚧
         * [Análise Fatorial por Componentes Principais (PCA)](#como-usar) 🚧 Em construção...  🚧
-        * [Análise de Correspondência Simples (ANACOR) e Múltipla (ACM)](#como-usar) 🚧 Em construção...  🚧
+        * [Análise de Correspondência Simples (ANACOR) e Múltipla (ACM)](https://github.com/gizelecardoso/trilha_aprendizado_data_science/blob/main/acm_anacor/README.md) 🚧 Em construção...  🚧
    * [Tópicos Avançados](#tecnologias)
         * [Deep Learning](#como-usar) 🚧 Em construção...  🚧
         * [Visão Computacional](#como-usar) 🚧 Em construção...  🚧
