@@ -51,6 +51,8 @@ Próximos passos são cálculos mais matemáticos (álgebra linear), inclusos aq
 
 https://www.professores.uff.br/gbenitez/wp-content/uploads/sites/98/2017/08/Aula_8.pdf - pesquisar melhor futuramente 
 
+https://www.kaggle.com/code/cmcoutosilva/an-lise-de-correspond-ncia-c-mara-dos-deputados/notebook - prática em python para ver melhor
+
 Todo esse matematiquês para chegar no par de de coordenadas para podermos plotar as variáveis no Mapa Perceptual.
 
 
